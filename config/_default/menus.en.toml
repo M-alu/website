@@ -3,20 +3,20 @@
 # main menu
 [[main]]
 URL = "about/"
-name = "About"
+name = "À propos"
 weight = 1
 
 [[main]]
 URL = "blog/"
-name = "Blog"
+name = "Notre Blog"
 weight = 2
 
 [[main]]
 URL = "portfolio/"
-name = "Portfolio"
+name = "Notre Portfolio"
 weight = 3
 
 [[main]]
 URL = "contact/"
-name = "Contact"
+name = "Nous contacter"
 weight = 4

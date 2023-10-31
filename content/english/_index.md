@@ -1,7 +1,7 @@
 ---
 # banner
 banner:
-  title : "Hi! I’m <br> Christoher <br> UX designer"
+  title : "ALU, PVC & BOIS<br> Le savoir faire<br> sur-mesure"
 
 # about
 about:
@@ -9,7 +9,7 @@ about:
   content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
   button:
     enable : true
-    label : "know more"
+    label : "En savoir plus"
     URL : "about"
 
 # skill
@@ -17,22 +17,29 @@ skill:
   enable : true
   title : "Skills"
   item:
-    - title : "Web Design"
+    - title : "Cuisine"
       progress : "90%"
       color : "#fdb157"
       
-    - title : "Logo Design"
+    - title : "Parquet"
       progress : "60%"
       color : "#9473e6"
       
-    - title : "After Effects"
+    - title : "Fenêtre"
       progress : "80%"
       color : "#bdecf6"
       
-    - title : "Web App"
+    - title : "Volets"
       progress : "70%"
       color : "#ffbcaa"
 
+    - title : "Portes"
+      progress : "70%"
+      color : "#5DC050"
+
+    - title : "Verandas"
+      progress : "70%"
+      color : "#974F59"
 # experience
 experience:
   enable : true

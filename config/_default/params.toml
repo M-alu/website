@@ -2,14 +2,14 @@
 # favicon
 favicon = "images/favicon.png"
 # logo
-logo = ""
+logo = "images/logo.svg"
 # use `px` or `x` with logo_width, example: "100px".
 # Note: logo_width is not work with .svg file
-logo_width = ""
+logo_width = "100px"
 # if logo_webp set false, will not generate WEBP version of logo | default is true
 logo_webp = true
 # logo text will only show when logo is missing.
-logo_text = "Kross"
+logo_text = "M..alu"
 
 # purgeCSS
 purge_css = true
@@ -25,10 +25,10 @@ google_tag_manager = "" # example: G-XXXXXXXXXX
 custom_script = ""
 
 # Author
-author = "Johnathan Smith"
+author = "Luc Van De Velde"
 
 # copyright
-copyright = "Copyright by your company"
+copyright = "Copyright by M..Alu de 2023 au present"
 theme_copyright = true
 
 # Preloader
@@ -38,9 +38,9 @@ preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
 
 # contact info
 [contact_info]
-address = "9567 Turner Trace Apt. BC C3G8A4"
-email = "info@email.com"
-mobile = "+211234565523"
+address = "Chemin de la Mude 83690 Salernes"
+email = "m.alumenuiserie@gmail.com"
+mobile = "+330787028912"
 
 # Crisp Chat
 [crisp_chat]
@@ -65,10 +65,10 @@ visitor = true
 
 # seo meta data for OpenGraph / Twitter Card
 [metadata]
-author = "Themefisher" 
-description = "This is meta description" 
+author = "Luc Van De Velde, M..Alu" 
+description = "ALU/PVC/BOIS Le savoir faire sur mesure" 
 image = "images/favicon.png" # this image will be used as fallback if a page has no image of its own
-keywords = ["Boilerplate", "Hugo", "Themefisher", "GetHugoThemes"] 
+keywords = ["Menuiseries","ALU", "PVC", "BOIS", "BTP", "Cuisine", "Parquet", "Fenêtre", "Volet", "Porte", "Garage", "Vérandas"] 
 
 # matomo tracking: see https://matomo.org/
 [matomo]
