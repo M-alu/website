@@ -29,7 +29,7 @@ author = "Luc Van De Velde"
 
 # copyright
 copyright = "Copyright by M..Alu de 2023 au present"
-theme_copyright = true
+theme_copyright = false
 
 # Preloader
 [preloader]
@@ -102,7 +102,8 @@ mastodon = "" # Your verification code
 # google map
 [google_map]
 enable = true
-embed_url = "https://www.google.com/maps/embed/v1/place?q=Washington+D.C.,+DC,+USA&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+
+embed_url = "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2890.6863394168126!2d6.216359496444148!3d43.57141852190968!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1698763472514!5m2!1sfr!2sfr"
 
 # cookies
 [cookies]

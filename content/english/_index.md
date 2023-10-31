@@ -15,7 +15,7 @@ about:
 # skill
 skill:
   enable : true
-  title : "Skills"
+  title : "Notre savoir faire "
   item:
     - title : "Cuisine"
       progress : "90%"
@@ -25,9 +25,13 @@ skill:
       progress : "60%"
       color : "#9473e6"
       
-    - title : "Fenêtre"
+    - title : "Fenêtre PVC"
       progress : "80%"
       color : "#bdecf6"
+
+    - title : "Fenêtre ALU"
+      progress : "80%"
+      color : "#63D3B1"
       
     - title : "Volets"
       progress : "70%"
@@ -40,9 +44,13 @@ skill:
     - title : "Verandas"
       progress : "70%"
       color : "#974F59"
+
+    - title : "Pergolas"
+      progress : "70%"
+      color : "#923A6B"
 # experience
 experience:
-  enable : true
+  enable : false 
   title : "Experience"
   item: 
     - logo : "images/experience/icon-1.png"
@@ -63,7 +71,7 @@ experience:
 # education
 education:
   enable : true
-  title : "Education"
+  title : "Mes Formations"
   item:
     - title : "Marters in UX Design"
       year : "2006"
@@ -84,22 +92,27 @@ education:
 # service
 service:
   enable : true
-  title : "Services"
+  title : "4 Etapes Importantes"
   item:
-    - title : "UI Design"
-      icon : "ti-palette"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    - title : "Expertise Commerciale"
+      icon : "ti-panel"
+      content : "Mise en place d'un planning des travaux et des délais inscrits."
       highlighted : false
 
-    - title : "UX Design"
-      icon : "ti-vector"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    - title : "Préparation des travaux"
+      icon : "ti-ruler-pencil"
+      content : "quantifier et qualifier les matériaux nécessaires à la réalisation de votre projet."
       highlighted : true
 
-    - title : "Interaction Design"
-      icon : "ti-panel"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    - title : "Réalisation des travaux"
+      icon : "ti-stamp"
+      content : "Conformément au cahier des charges, dans le respect des normes en igeur et du planing pré-établi."
       highlighted : false
+
+    - title : "Réception du chantier"
+      icon : "ti-thumb-up"
+      content : "Inspection du bon achèvement du chantier, et de la conformité des travaux."
+      highlighted : true
 
 # portfolio
 portfolio:
@@ -130,7 +143,7 @@ testimonial:
 
 # client logo slider
 clients_logo_slider:
-  enable : true
+  enable : false
   item:
     - logo : "images/clients-logo/client-logo-1.png"
       URL : "http://examplesite.com"
