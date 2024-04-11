@@ -22,7 +22,6 @@ google_adsense = "" # example: ca-pub-xxxxxxxxxxxxxxxx
 google_tag_manager = "" # example: G-XXXXXXXXXX
 
 # custom script on header, example: custom_script= "<script>console.log(\"Hello World\")</script>"
-custom_script = ""
 
 # Author
 author = "Luc Van De Velde"
@@ -47,27 +46,6 @@ author = "M.. Alu a Salernes"
 description = "Pour embellir votre maison, intérieure & extérieure. Menuiserie PVC, ALU & BOIS. Venez voir notre site pour en apprendre plus." 
 image = "images/favicon.png" # this image will be used as fallback if a page has no image of its own
 keywords = ["M.. Alu", "Menuiserie", "Alu", "PVC", "Bois", "BTP","Cuisine","Parquet","Fenêtres","Portes","Verandas","Pergolas"] 
-
-# matomo tracking: see https://matomo.org/
-[matomo]
-enable = false 
-id = "" # your matomo id
-url = "" # your matomo url
-
-# baidu analytics: see https://tongji.baidu.com/
-[baidu]
-analytics_id = "" # Your ID
-enable = false 
-
-# plausible analytics: see https://plausible.io/
-[plausible]
-domain = "" # yourdomain.com
-enable = false 
-
-# counter analytics: see https://counter.dev/setup.html
-[counter]
-enable = false 
-username = "" # your username
 
 # google map
 [google_map]

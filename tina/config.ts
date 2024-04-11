@@ -3,6 +3,7 @@ import { Home } from "./collection/home";
 import { About } from "./collection/about"
 import { Portfolio } from "./collection/portfolios";
 import { Blog } from "./collection/blogs";
+import { Menus, Params } from "./collection/config";
 
 // Your hosting provider likely exposes this as an environment variable
 const branch =
@@ -32,7 +33,7 @@ export default defineConfig({
   // See docs on content modeling for more info on how to setup new content models: https://tina.io/docs/schema/
   schema: {
     collections: [
-      Home, About, Portfolio, Blog
+      Home, About, Portfolio, Blog, Menus, Params
     ],
   },
 });
