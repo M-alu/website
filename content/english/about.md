@@ -1,52 +1,45 @@
 ---
-title: "About"
-description: "This is meta description."
-author_image : "images/about/author.jpg"
-author_signature : "images/about/signature.png"
+title: About
+description: This is meta description.
+author_image: /images/about/author.jpg
+author_signature: images/about/signature.png
 draft: false
-layout: "about"
-
-# work process
+layout: about
 work_process:
-  enable : true
-  title : "Work Process"
+  enable: true
+  title: Work Process
   item:
-  - title : "Research and Plan"
-    icon : "images/icons/plan.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    
-  - title : "Design and Develop"
-    icon : "images/icons/design.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    
-  - title : "Deliver"
-    icon : "images/icons/print.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-
-
-# team
+    - title: Research and Plan
+      icon: images/icons/plan.png
+      content: >-
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.
+    - title: Design and Develop
+      icon: images/icons/design.png
+      content: >-
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.
+    - title: Deliver
+      icon: images/icons/print.png
+      content: >-
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.
 team:
   enable: false
-  title : "My Team"
+  title: My Team
   team_member:
-    - title : "Jack Schenziwe"
-      image : "images/team/member-1.png"
-      designation : "Project Manager"
-      
-    - title : "Julias Carlie"
-      image : "images/team/member-2.png"
-      designation : "Web Developer"
-      
-    - title : "John Doe"
-      image : "images/team/member-3.png"
-      designation : "Designer"
-
-
-# client logo slider
+    - title: Jack Schenziwe
+      image: images/team/member-1.png
+      designation: Project Manager
+    - title: Julias Carlie
+      image: images/team/member-2.png
+      designation: Web Developer
+    - title: John Doe
+      image: images/team/member-3.png
+      designation: Designer
 clients_logo_slider:
-  enable : false
-  title : "My Clients"
-  # clients logo comes from 'params.toml' file
+  enable: false
+  title: My Clients
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
