@@ -42,33 +42,11 @@ address = "Chemin de la Mude 83690 Salernes"
 email = "m.alumenuiserie@gmail.com"
 mobile = "+330787028912"
 
-# Crisp Chat
-[crisp_chat]
-crisp_website_id = "9aa449e1-9999-422a-938f-8567982eec6d" # replace this code with yours
-enable = false 
-# Check this video tutorial to get your crisp website ID - https://www.youtube.com/watch?v=nW5UX6iVdFc
-
-# Valine Comment
-[valine_comment]
-appId = "" # replace this code with yours [ex: QGzwQXOqs5JOhN4RGPOkR2mR-MdYXbMMI]
-appKey = "" # replace this code with yours [ex: WBmoGyJtbqUswvfLh6L8iEBr]
-enable = false 
-# language = "change language translation from `i18n`"
-avatar = "" # see : https://valine.js.org/en/avatar.html
-enableQQ = false # https://valine.js.org/en/configuration.html#enableQQ
-highlight = true # Code highlighting
-pageSize = 10 # will show 10 comments per page
-recordIP = true # Record reviewer IP.
-visitor = true 
-# serverURLs = "" # https://leancloud.your_website.com
-# Check Valine's official documentation here - https://valine.js.org/en/configuration.html
-
-# seo meta data for OpenGraph / Twitter Card
 [metadata]
-author = "Luc Van De Velde, M..Alu" 
-description = "ALU/PVC/BOIS Le savoir faire sur mesure" 
+author = "M.. Alu a Salernes" 
+description = "Pour embellir votre maison, intérieure & extérieure. Menuiserie PVC, ALU & BOIS. Venez voir notre site pour en apprendre plus." 
 image = "images/favicon.png" # this image will be used as fallback if a page has no image of its own
-keywords = ["Menuiseries","ALU", "PVC", "BOIS", "BTP", "Cuisine", "Parquet", "Fenêtre", "Volet", "Porte", "Garage", "Vérandas"] 
+keywords = ["M.. Alu", "Menuiserie", "Alu", "PVC", "Bois", "BTP","Cuisine","Parquet","Fenêtres","Portes","Verandas","Pergolas"] 
 
 # matomo tracking: see https://matomo.org/
 [matomo]
@@ -91,26 +69,11 @@ enable = false
 enable = false 
 username = "" # your username
 
-# site verifications
-[site_verification]
-baidu = "" # Your verification code
-bing = "" # Your verification code
-facebook = "" # Your verification code
-google = "" # Your verification code
-mastodon = "" # Your verification code
-
 # google map
 [google_map]
 enable = true
 
 embed_url = "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2890.6863394168126!2d6.216359496444148!3d43.57141852190968!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1698763472514!5m2!1sfr!2sfr"
-
-# cookies
-[cookies]
-enable = false
-expire_days = 2
-button = "I Accept"
-content = "This site uses cookies. By continuing to use this website, you agree to their use."
 
 # Client Logo Slider 
 [[logo_slider]]
