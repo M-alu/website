@@ -3,6 +3,7 @@
 favicon = "images/favicon.png"
 # logo
 logo = "images/logo.svg"
+
 logo_darkmode = "images/logo.svg"
 
 # use `px` or `x` with logo_width, example: "100px".

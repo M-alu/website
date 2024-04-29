@@ -71,5 +71,4 @@ link = "plugins/webfont/webfont-loader-2.js"
 link = "plugins/glightbox/glightbox.js"
 [[params.plugins.js]]
 link = "js/gallery-slider.js"
-[[params.plugins.js]]
-link = "plugins/swiper/swiper-bundle.js"
+

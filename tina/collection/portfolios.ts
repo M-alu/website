@@ -38,6 +38,11 @@ const Portfolio: Collection = {
         },
         {
             type:'string',
+            name:'project_url',
+            label:'Lien vers le projet'
+        },
+        {
+            type:'string',
             name:'description',
             label:'Description du projet',
         },
