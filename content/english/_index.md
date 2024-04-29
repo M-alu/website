@@ -4,11 +4,12 @@ banner:
 about:
   enable: true
   content: >-
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    cillum dolore eu fugiat nulla pariatur.
+    M..alu votre menuisier PVC, ALU et BOIS a Salernes. On installe vos
+    fenêtres, portes, portails et volets en PVC, alu, composite et bois.
+
+    Accompagnement personnalisé de votre projet, larges gammes, qualité des
+    finitions et de la pose des menuiseries… Pour l’ensemble de vos travaux de
+    menuiserie en  Provence-Alpes-Côte d'Azur, faites appel a M..ALU
   button:
     enable: true
     label: En savoir plus
@@ -58,21 +59,8 @@ experience:
       company: THEMEFISHER
       duration: Sep 2014 - Present
 education:
-  enable: true
+  enable: false
   title: Mes Formations
-  item:
-    - title: Marters in UX Design
-      year: '2006'
-      academy: Masassusets Institute of Technology
-    - title: Honours in Fine Arts
-      year: '2004'
-      academy: Harvard University
-    - title: Higher Secondary Certificat
-      year: '2000'
-      academy: Cardiff School
-    - title: Secondary School Certificate
-      year: '1998'
-      academy: Cardiff School
 service:
   enable: true
   title: 4 Etapes Importantes
@@ -103,16 +91,13 @@ testimonial:
   enable: true
   title: Testimonials
   item:
-    - name: Jesica Gomez
-      image: images/testimonial/client-1.png
-      designation: 'CEO, Funder'
-      content: >-
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut
-        aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in
-        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-        pariatur.
+    - name: 'Avis Google: Thierry boudet'
+      image: /images/testimonial/avatar.png
+      designation: 5 etoiles
+      content: |-
+        Travail soigné et précis.
+        Délais respectés, et tarifs compétitifs
+        A recommandé.
     - name: Shirley Scot
       image: images/testimonial/client-2.png
       designation: 'CEO, Funder'
