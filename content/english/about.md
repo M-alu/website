@@ -1,42 +1,35 @@
 ---
 title: About
 description: This is meta description.
-author_image: /images/about/author.jpg
-author_signature: images/about/signature.png
+author_image: ''
+author_signature: ''
 draft: false
 layout: about
 work_process:
   enable: true
   title: Work Process
   item:
-    - title: Research and Plan
-      icon: images/icons/plan.png
+    - title: Expertise commerciale
+      icon: /images/favicon.png
+      content: Mise en place d'un planning des travaux et des délais inscrits.
+    - title: Préparation des travaux
+      icon: /images/icons/plan.png
       content: >-
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua.
-    - title: Design and Develop
-      icon: images/icons/design.png
+        Quantifier et qualifier les matériaux nécessaires à la réalisation de
+        votre projet.
+    - title: Réalisation des travaux
+      icon: /images/icons/design.png
       content: >-
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua.
-    - title: Deliver
-      icon: images/icons/print.png
+        Conformément au cahier des charges, dans le respect des normes en
+        vigueur et du planning pré-établi.
+    - title: Réception du chantier
+      icon: /images/icons/print.png
       content: >-
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua.
+        Inspection du bon achèvement du chantier et de la conformité des
+        travaux.
 team:
   enable: false
   title: My Team
-  team_member:
-    - title: Jack Schenziwe
-      image: images/team/member-1.png
-      designation: Project Manager
-    - title: Julias Carlie
-      image: images/team/member-2.png
-      designation: Web Developer
-    - title: John Doe
-      image: images/team/member-3.png
-      designation: Designer
 clients_logo_slider:
   enable: false
   title: My Clients

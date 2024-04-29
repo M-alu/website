@@ -26,6 +26,7 @@
       <div class="col-md-8">
         {{ .Content }}
       </div>
+      {{ with .Params.author_image }}
       <div class="col-md-4 text-center drag-lg-top">
         <div class="shadow-down mb-4">
           {{ partial "image.html" (dict "Src" .Params.author_image "Alt" "author" "Class" `w-100 rounded-lg border-thick
@@ -34,6 +35,7 @@
         {{ partial "image.html" (dict "Src" .Params.author_signature "Alt" "signature") }}
         <h4>{{ site.Params.Author }}</h4>
       </div>
+      {{ end}}
     </div>
   </div>
 </section>
@@ -50,7 +52,7 @@
       </div>
       {{ range .item }}
       <div class="col-lg-3 col-md-4 text-center hover-shadow pt-3">
-        {{ partial "image.html" (dict "Src" .icon "Alt" "icon" "Class" `mb-4`) }}
+        {{ partial "image.html" (dict "Src" .icon "Alt" "icon" "Size" "55x55" "Class" `mb-4`) }}
         <h4 class="mb-4">{{ .title }}</h4>
         <p>{{ .content | markdownify }}</p>
       </div>

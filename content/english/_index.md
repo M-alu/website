@@ -89,7 +89,7 @@ service:
       highlighted: true
 testimonial:
   enable: true
-  title: Testimonials
+  title: Temoignages
   item:
     - name: 'Avis Google: Thierry boudet'
       image: /images/testimonial/avatar.png
@@ -98,43 +98,9 @@ testimonial:
         Travail soigné et précis.
         Délais respectés, et tarifs compétitifs
         A recommandé.
-    - name: Shirley Scot
-      image: images/testimonial/client-2.png
-      designation: 'CEO, Funder'
-      content: >-
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut
-        aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in
-        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-        pariatur.
-    - name: Jessica Julie
-      image: images/testimonial/client-3.png
-      designation: 'CEO, Funder'
-      content: >-
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut
-        aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in
-        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-        pariatur.
 clients_logo_slider:
-  enable: true
+  enable: false
   item:
-    - logo: /images/clients-logo/client-logo-1.png
-      URL: 'http://examplesite.com'
-    - logo: images/clients-logo/client-logo-2.png
-      URL: '#'
-    - logo: images/clients-logo/client-logo-3.png
-      URL: 'http://examplesite.com'
-    - logo: images/clients-logo/client-logo-4.png
-      URL: '#'
-    - logo: images/clients-logo/client-logo-5.png
-      URL: 'http://examplesite.com'
-    - logo: images/clients-logo/client-logo-1.png
-      URL: '#'
-    - logo: images/clients-logo/client-logo-2.png
-      URL: 'http://examplesite.com'
     - logo: images/clients-logo/client-logo-3.png
       URL: '#'
     - logo: images/clients-logo/client-logo-4.png
@@ -146,7 +112,7 @@ portfolio:
   title: Portfolio
   item_show: 5
 blog:
-  enable: true
+  enable: false
   title: Blogs
 ---
 
