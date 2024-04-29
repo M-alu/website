@@ -57,6 +57,9 @@ path = "github.com/gethugothemes/hugo-modules/shortcodes/tabs"
 path = "github.com/gethugothemes/hugo-modules/shortcodes/image"
 
 [[imports]]
+path = "github.com/gethugothemes/hugo-modules/gallery-slider"
+
+[[imports]]
 path = "github.com/gethugothemes/hugo-modules/shortcodes/gallery"
 
 [[imports]]

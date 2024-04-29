@@ -49,6 +49,10 @@ font_secondary_type = "serif" # [serif/sans-serif]
 link = "plugins/themify-icons/icons.css"
 [[params.plugins.css]]
 link = "plugins/swiper/swiper-bundle.css"
+[[params.plugins.css]]
+link = "plugins/glightbox/glightbox.css"
+[[params.plugins.css]]
+link = "plugins/swiper/swiper-bundle.css"
 
 # JS Plugins
 # [[params.plugins.js]]
@@ -63,3 +67,9 @@ link = "plugins/shuffle/shuffle.min.js"
 link = "plugins/swiper/swiper-bundle.js"
 [[params.plugins.js]]
 link = "plugins/webfont/webfont-loader-2.js" 
+[[params.plugins.js]]
+link = "plugins/glightbox/glightbox.js"
+[[params.plugins.js]]
+link = "js/gallery-slider.js"
+[[params.plugins.js]]
+link = "plugins/swiper/swiper-bundle.js"
