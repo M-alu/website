@@ -51,6 +51,15 @@ const Portfolio: Collection = {
             name:'body',
             label:'Body',
             isBody:true
+        },
+        {
+            type:'string',
+            name:'gallery',
+            label:'Galleri d\'images',
+            description:'images/portfolio/Nom du dossier',
+            ui:{
+                defaultValue:'images/portfolio'
+            }
         }
 
     ]

@@ -56,7 +56,11 @@
       <div class="col-lg-11">
         <div class="content">{{.Content}}</div>
       </div>
+      {{ with .Params.gallery }}
+        {{ partial "gallery.html" (dict "Dir" . ) }}
+      {{ end }}
     </div>
+    
   </div>
 </section>
 <!-- /portfolio -->
